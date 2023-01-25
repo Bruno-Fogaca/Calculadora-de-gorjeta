@@ -1,0 +1,69 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body{
+    background-color: rgb(253, 83, 83);
+    font-size: 18px;
+    font-family: Lato, sans-serif;
+
+}
+.titulo{
+    background-color: rgb(207, 207, 207);
+    padding: 20px;
+    text-transform: uppercase;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+
+}
+
+#container{
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: #f7f7f7;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 20px;
+
+}
+.tipsForm{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.formInput{
+    background: #f7f7f7;
+    width: 40px;
+    padding: 5px 5px 8px 8px;
+}
+.formInput:focus{
+    border: 3px solid;
+    outline: #fca3a3;
+}
+.formSelect{
+    width: 180px;
+    padding: 5px;
+    font-size: 15px;
+}
+.formSubmit{
+    background: #fca3a3;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: #f7f7f7;
+}
+#totalTip{
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+/* .escolha{
+    text-align: center;
+
+} */
